@@ -17,6 +17,7 @@ dbutils.widgets.text("measure_date", "2023-01-01")
 # COMMAND ----------
 
 measure_date = dbutils.widgets.get("measure_date")
+print(measure_date)
 
 # COMMAND ----------
 
