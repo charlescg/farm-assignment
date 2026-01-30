@@ -1,5 +1,5 @@
 
-CREATE OR REFRESH STREAMING LIVE TABLE dev_farm.slv_metrics.cow_milk_production(
+CREATE OR REFRESH STREAMING LIVE TABLE dev_farm.slv_sensor.cow_milk_production(
       CONSTRAINT expected_or_drop EXPECT (value is null)
 )
 AS 
